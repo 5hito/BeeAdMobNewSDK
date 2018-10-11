@@ -2,10 +2,11 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeAdMobNewSDK"
-  s.version      = "0.1.0"
+  s.version      = "0.2.0"
   s.summary      = "广告sdk"
   s.description  = <<-DESC
     0.0.x:基础功能
+    0.2.0:bitcode
                    DESC
 
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
