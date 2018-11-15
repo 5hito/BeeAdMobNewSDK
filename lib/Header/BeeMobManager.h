@@ -19,4 +19,6 @@
 
 + (void)setUserVip:(BOOL)isVip;
 
++ (void)showAppRecommend:(UIViewController*)superController;
+
 @end
