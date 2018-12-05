@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BeeMobAppRecommendEntity.h"
 
 @interface BeeMobManager : NSObject
 
@@ -19,6 +20,6 @@
 
 + (void)setUserVip:(BOOL)isVip;
 
-+ (void)showAppRecommend:(UIViewController*)superController;
++ (void)showAppRecommend:(UIViewController*)superController success:(void (^)(BeeMobAppRecommendEntity *entity))block;
 
 @end
