@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeAdMobNewSDK"
-  s.version      = "0.4.5"
+  s.version      = "0.5.0"
   s.summary      = "广告sdk"
   s.description  = <<-DESC
     0.0.x:基础功能
@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
     0.4.x:应用推荐
         -0.4.3:添加信息流颜色动态替换
         -0.4.5:修复启动屏奔溃问题
+        -0.5.0:修改视频广告模式
                    DESC
 
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
