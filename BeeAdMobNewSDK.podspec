@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
 
   s.dependency "MJExtension"
   s.dependency 'Masonry'
+  s.dependency 'iCarousel'
 
   s.dependency 'BeeCommonSDK'
   s.dependency 'BeeAFNetSDK'
