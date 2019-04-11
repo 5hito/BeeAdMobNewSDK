@@ -11,15 +11,13 @@
 
 @interface BeeMobManager : NSObject
 
-+ (void)showAppAlert;
++ (void)setUserVip:(BOOL)isVip;
++ (void)setDefaultProductId:(NSString*)productID;
 
 + (void)setDefaultInterstitialGGId:(NSString*)ggUnitId;
 + (void)setStopShowInterstitialAd;
 
-+ (void)setDefaultProductId:(NSString*)productID;
-
-+ (void)setUserVip:(BOOL)isVip;
-
++ (void)showAppAlert;
 + (void)showAppRecommend:(UIViewController*)superController success:(void (^)(BeeMobAppRecommendEntity *entity))block;
 
 @end

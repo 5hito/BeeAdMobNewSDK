@@ -24,6 +24,8 @@
 
 @property (nonatomic, weak) id<BeeMobFloatingWindowViewDelegate> delegate;
 @property (nonatomic, weak) UIViewController* rootController;
+@property (nonatomic, assign) CGPoint viewPoint;
+@property (nonatomic, assign) BOOL bShowClose;
 
 - (void)loadAdRequest;
 

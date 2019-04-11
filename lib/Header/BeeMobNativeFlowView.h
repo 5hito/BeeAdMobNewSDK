@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class BeeMobNativeFlowView;
 @protocol BeeMobNativeFlowViewDelegate <NSObject>
 
-- (void)beeMobNativeAdSuccessToLoad;
-- (void)beeMobNativeAdFailToLoad:(NSError *)error;
-- (void)beeMobNativeAdImpression;
-- (void)beeMobNativeAdClick;
+- (void)beeMobNativeAdSuccessToLoad:(BeeMobNativeFlowView*)nativeView;
+- (void)beeMobNativeAdFailToLoad:(BeeMobNativeFlowView*)nativeView error:(NSError *)error;
+- (void)beeMobNativeAdImpression:(BeeMobNativeFlowView*)nativeView;;
+- (void)beeMobNativeAdClick:(BeeMobNativeFlowView*)nativeView;;
 
 @end
 

@@ -17,7 +17,7 @@
 //必须设置banner广告大小 否则广告无法显示，可以选择初始化设置
 @property(nonatomic, assign) CGSize adSize;
 
-- (instancetype)initWithFrame:(CGRect)frame unitAd:(NSString*)adUnitId;
+- (instancetype)initWithUnitAd:(NSString*)adUnitId;
 - (void)loadADRequest;
 
 @end
