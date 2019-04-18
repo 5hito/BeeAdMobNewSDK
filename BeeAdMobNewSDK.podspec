@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeAdMobNewSDK"
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "广告sdk"
   s.description  = <<-DESC
     0.0.x:基础功能
@@ -29,12 +29,13 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
+  s.dependency 'BeeCommonSDK'
+  s.dependency 'BeeAFNetSDK'
+
   s.dependency "MJExtension"
   s.dependency 'Masonry'
   s.dependency 'iCarousel'
-
-  s.dependency 'BeeCommonSDK'
-  s.dependency 'BeeAFNetSDK'
+  s.dependency 'KochavaTrackeriOS'
 
   s.dependency 'BeeMobGDTSDK', '~> 1.0.2'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 7.41.0'
