@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeAdMobNewSDK"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "广告sdk"
   s.description  = <<-DESC
     0.0.x:基础功能
@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
         -0.4.3:添加信息流颜色动态替换
         -0.4.5:修复启动屏奔溃问题
         -0.5.0:修改视频广告模式
-    1.1.x:Kochava
     1.2.0:新增穿山甲
                    DESC
 
