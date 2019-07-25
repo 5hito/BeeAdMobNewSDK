@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeAdMobNewSDK"
-  s.version      = "1.2.1"
+  s.version      = "1.2.2"
   s.summary      = "广告sdk"
   s.description  = <<-DESC
     0.0.x:基础功能
@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
         -0.4.5:修复启动屏奔溃问题
         -0.5.0:修改视频广告模式
     1.2.0:新增穿山甲
+    1.2.2:remove fb and other sdks
                    DESC
 
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
@@ -37,21 +38,7 @@ Pod::Spec.new do |s|
   s.dependency 'iCarousel'
 
   s.dependency 'BeeMobBUADSDK'
-  s.dependency 'BeeMobGDTSDK', '~> 1.0.2'
+  s.dependency 'BeeMobGDTSDK'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 7.41.0'
-  s.dependency 'FBAudienceNetwork', '~> 4.28.1'
-  s.dependency 'GoogleMobileAdsMediationFacebook'
-
-  s.dependency 'GoogleMobileAdsMediationMoPub'
-  s.dependency 'GoogleMobileAdsMediationAdColony'
-  s.dependency 'GoogleMobileAdsMediationAppLovin'
-  s.dependency 'GoogleMobileAdsMediationVungle'
-  s.dependency 'GoogleMobileAdsMediationUnity'
-#s.dependency 'MoPub-Applovin-Adapters'
-
-#s.dependency 'GoogleMobileAdsMediationInMobi'
-#s.dependency 'Flurry-iOS-SDK/FlurrySDK'
-#s.dependency 'Flurry-iOS-SDK/FlurryAds'
-#s.dependency 'AdMobMediationAdapterFlurry'
 
 end
